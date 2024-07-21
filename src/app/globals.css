@@ -31,3 +31,52 @@ body {
     text-wrap: balance;
   }
 }
+
+/* COMIENZO BACKGROUND */
+
+.wrapper {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+/* components/StarsBackground.css */
+
+.stars-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stars,
+.stars2,
+.stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.stars div,
+.stars2 div,
+.stars3 div {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+.stars div,
+.stars2 div,
+.stars3 div {
+  animation: animStar linear infinite;
+}
