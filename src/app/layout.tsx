@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="bg-black">{children}</main>
+        <main className="overflow-x-hidden bg-black">{children}</main>
         <Footer />
       </body>
     </html>

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Nike Page",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1721629634/samples/portfolio_images/396shots_so_p6dwmj.png",
+    "description": "Pagina estatica inspirada en NIKE",
+    "url": "https://nike.javimx.com",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["Next", "Typescript", "Tailwind"]
+  },
+  {
+    "title": "Camp Page",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1721629634/samples/portfolio_images/577shots_so_bivf6m.png",
+    "description": "Pagina estatica inspirada para promocionar un campamento",
+    "url": "https://camp.javimx.com",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["Next", "Typescript", "Tailwind"]
+  },
+  {
+    "title": "Nike Page",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1721629634/samples/portfolio_images/396shots_so_p6dwmj.png",
+    "description": "Pagina estatica inspirada en NIKE",
+    "url": "https://nike.javimx.com",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["Next", "Typescript", "Tailwind"]
+  },
+  {
+    "title": "Camp Page",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1721629634/samples/portfolio_images/577shots_so_bivf6m.png",
+    "description": "Pagina estatica inspirada para promocionar un campamento",
+    "url": "https://camp.javimx.com",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["Next", "Typescript", "Tailwind"]
+  }
+]

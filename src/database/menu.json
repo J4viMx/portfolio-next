@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Experience",
+    "link": "/prueba",
+    "icon": "briefcase-outline"
+  },
+  {
+    "name": "Projects",
+    "link": "/",
+    "icon": "browser-outline"
+  },
+  {
+    "name": "About",
+    "link": "/",
+    "icon": "person-outline"
+  },
+  {
+    "name": "Curriculum",
+    "link": "/",
+    "icon": "file-text-outline"
+  },
+  {
+    "name": "Technologies",
+    "link": "/",
+    "icon": "save-outline"
+  },
+  {
+    "name": "Contact",
+    "link": "/",
+    "icon": "email-outline"
+  }
+]
