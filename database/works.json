@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Nike Page",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618895/samples/portfolio_images/f6mtfxgwvgspoavr47jn.png",
+    "description": "Nike Page es un proyecto personal para aprender Next.js mientras seguía un diseño inspirado en Nike. Utilicé TypeScript, Next.js y Tailwind CSS para crear una página estática que presenta productos de manera visualmente atractiva. El principal desafío fue adaptarme a la nueva versión de Next.js, lo que me permitió mejorar mis habilidades y optimizar el rendimiento del sitio.",
+    "url": "https://nike.javimx.com",
+    "git": "https://github.com/J4viMx/next_nike",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["next", "typescript", "tailwind"],
+    "basic_description": "Nike Page es una página estática inspirada en la estética de la marca Nike. Fue desarrollada con TypeScript, Next.js y Tailwind CSS para practicar un diseño atractivo y moderno."
+  },
+  {
+    "title": "Camp Site",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618894/samples/portfolio_images/e19gzueervyjwcbdwwfh.png",
+    "description": "Camp Site es mi primer proyecto con la nueva versión de Next.js, creado para explorar y aprender esta tecnología. Desarrollé una página estática que muestra actividades y lugares de un campamento, utilizando TypeScript, Next.js y Tailwind CSS. Uno de los mayores desafíos fue adaptarme a la nueva versión de Next.js, lo cual me ayudó a mejorar mis habilidades y comprender mejor las herramientas para desarrollar sitios más optimizados. El enfoque en los detalles de diseño buscó crear una experiencia envolvente, resaltando la belleza y diversión del entorno campestre.",
+    "url": "https://nike.javimx.com",
+    "git": "https://github.com/J4viMx/next_project",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["next", "typescript", "tailwind"],
+    "basic_description": "Camp Site es una página estática diseñada para promocionar un campamento, destacando actividades y lugares. Fue creada con TypeScript, Next.js y Tailwind CSS, siguiendo un diseño atractivo y moderno."
+  },
+  {
+    "title": "Veterinaria",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618894/samples/portfolio_images/exwuf0wgnw07kpew6xh5.png",
+    "description": "Veterinaria es un proyecto creado para aprender React y mejorar en el manejo del estado de aplicaciones. Esta página permite registrar pacientes de una veterinaria, incluyendo información como síntomas, fechas y detalles de contacto. Utilicé React y Tailwind CSS para construirlo, lo cual me ayudó a aprender a manejar componentes y estado de manera eficiente. Uno de los principales desafíos fue aprovechar al máximo las herramientas de React para crear una aplicación útil y bien estructurada. Además, busqué que la interfaz fuera intuitiva, permitiendo un flujo de trabajo ágil para el personal veterinario.",
+    "url": "https://determined-shaw-00ec26.netlify.app/",
+    "git": "https://github.com/J4viMx/citas_react",
+    "date": "2022",
+    "service": "Frontend Development",
+    "stack": ["react", "javascript", "tailwind"],
+    "basic_description": "Veterinaria es una página para llevar el registro de pacientes en una clínica veterinaria, incluyendo detalles como síntomas y contacto. Fue desarrollada con React y Tailwind CSS."
+  },
+
+  {
+    "title": "Cripto Site",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618894/samples/portfolio_images/j9pgfq52pzk35cnpgbff.png",
+    "description": "Cripto Site es un proyecto creado para aprender React y realizar peticiones fetch de manera correcta. Esta página permite convertir monedas populares a criptomonedas, consultando precios actualizados en tiempo real. Utilicé React para crear una interfaz sencilla e intuitiva, además de mejorar mis habilidades con las peticiones de APIs. El desafío principal fue aprender y aplicar las herramientas de React para gestionar datos dinámicos de manera eficiente. También me enfoqué en hacer que la página fuera rápida y clara para usuarios interesados en criptomonedas.",
+    "url": "https://angry-poincare-1c750b.netlify.app/",
+    "git": "https://github.com/J4viMx/cotizador-crypto",
+    "date": "2022",
+    "service": "Frontend Development",
+    "stack": ["react", "javascript"],
+    "basic_description": "Cripto Site es una página que permite convertir monedas populares a criptomonedas, mostrando precios actualizados. Fue desarrollada con React."
+  },
+  {
+    "title": "Planificador gastos",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618894/samples/portfolio_images/fxl3i702spxgegpve5uc.png",
+    "description": "Planificador de Gastos es un proyecto que desarrollé para aprender React y mejorar el manejo de estados de la aplicación. La página permite a los usuarios registrar, gestionar, editar y visualizar sus gastos de manera gráfica y sencilla, incluyendo gráficos y porcentajes que facilitan la comprensión. Los gastos también pueden ser filtrados por categorías para un análisis más preciso. React fue la tecnología utilizada para crear una interfaz dinámica e interactiva. El mayor desafío fue implementar una experiencia intuitiva que ayudara a los usuarios a visualizar sus finanzas de forma clara, logrando una aplicación funcional y atractiva.",
+    "url": "https://confident-pike-12d357.netlify.app/",
+    "git": "https://github.com/J4viMx/control-presupuesto",
+    "date": "2022",
+    "service": "Frontend Development",
+    "stack": ["react", "javascript"],
+    "basic_description": "Planificador de Gastos es una página que permite registrar y organizar gastos personales o grupales por categoría. Fue desarrollada con React."
+  }
+]

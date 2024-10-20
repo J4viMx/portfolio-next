@@ -1,0 +1,61 @@
+{
+  "hero": [
+    "2 años de experiencia",
+    "Frontend con React y TypeScript",
+    "desarrollo Backend con Node.js",
+    "aprendizaje continuo",
+    "últimas tecnologías"
+  ],
+  "experience": [
+    "Desarrollé un programa de lealtad",
+    "Desarrolle un",
+    "PIM",
+    "React, Redux y jQuery",
+    "Gemini, Cognito, Firebase, React, TypeScript, Node.js y Express",
+    "Desarrollé un programa de promociones y lealtad",
+    "React, Redux, TypeScript, Axios, Cognito y Material-UI",
+    "Creé una página estática",
+    "Next.js, TypeScript y GSAP",
+    "Lideré y desarrollé el sitio oficial",
+    "HTML, CSS, JavaScript, Bootstrap",
+    "Implementé una aplicación web",
+    "React",
+    "PHP",
+    "Elaboré wireframes",
+    "Balsamiq"
+  ],
+  "portfolio": [
+    "Nike Page",
+    "TypeScript, Next.js y Tailwind CSS",
+    "Camp Site",
+    "React y Tailwind CSS",
+    "Veterinaria",
+    "Cripto Site",
+    "React",
+    "Planificador de Gastos"
+  ],
+  "career": [
+    "2 años",
+    "desarrollo de software",
+    "especializo en frontend",
+    "fullstack",
+    "Me siento cómodo",
+    "colaborando",
+    "como trabajando solo",
+    "seguir aprendiendo y construyendo",
+    "Graduado de la Universidad ICEL",
+    "Participe en un Bootcamp",
+    "cursos en Udemy",
+    "frameworks de JavaScript",
+    "análisis, diseño y gestión de sistemas informáticos",
+    "React y Node.js",
+    "frontend y backend",
+    "conocimientos prácticos y actualizados"
+  ],
+  "about": [
+    "Cada gran proyecto comienza con una simple conversación",
+    "mensaje",
+    "¡Gracias por tu visita!",
+    "tiempo"
+  ]
+}

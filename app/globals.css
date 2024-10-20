@@ -7,6 +7,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +34,103 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@layer utilities {
+  .font-lato {
+    @apply font-sans;
+    font-family: "Lato", sans-serif;
+  }
+}
+
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: transparent;
+  background-clip: padding-box;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Bordes de gradiente */
+.hexagon::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 110px;
+  height: 63.74px;
+  background: linear-gradient(to right, #3b82f6, #60a5fa); /* Degradado azul */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 24px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #bdc3c7;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #00171f;
+  padding: 2.5em 1.5em 0;
+  font-size: 2rem;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #00171f;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #fff;
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+
+/* Individual item */
+.bm-item {
+  display: flex !important;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }

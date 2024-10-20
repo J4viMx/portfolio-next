@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Desarrollador Frontend",
+    "company": "Vinneren",
+    "ubication": "México, Ciudad de México",
+    "workModality": "Remoto",
+    "schedule": "Tiempo completo",
+    "activities": [
+      "Desarrollé un programa de lealtad con un dashboard interactivo y optimización del proceso de checkout mediante scripts personalizados, también creé plantillas de correo electrónico. Todo esto utilizando tecnologías como React, Redux y jQuery. Estas mejoras optimizaron la experiencia de usuario y aumentaron la retención de clientes. Resolví un problema complejo de prorrateo que impedía el uso del software en una tienda implementada.",
+      "Desarrolle un Sistema de Gestión de Información de Productos (PIM) que incluyó un dashboard interactivo, la creación de servicios API para la gestión de datos y usuarios, e integración de herramientas de inteligencia artificial. Utilicé tecnologías como Gemini, Cognito, Firebase, React, TypeScript, Node.js y Express, lo que resultó en una mejora significativa en la centralización y gestión de productos para los usuarios.",
+      "Desarrollé un programa de promociones y lealtad con un dashboard interactivo utilizando tecnologías como React, Redux, TypeScript, Axios, Cognito y Material-UI. Esta solución impulsó la participación de los clientes y fortaleció la lealtad hacia la marca.",
+      "Creé una página estática para la presentación de productos, que incluyó la implementación de formularios de contacto y animaciones complejas, utilizando tecnologías como Next.js, TypeScript y GSAP. Este proyecto mejoró significativamente la presentación y visualización de los productos de la empresa."
+    ],
+    "skills": [
+      "react",
+      "next",
+      "redux",
+      "jquery",
+      "javascript",
+      "typescript",
+      "node",
+      "express",
+      "mui",
+      "tailwind"
+    ],
+    "date": "Septiembre 2022 - actualidad"
+  },
+  {
+    "name": "Desarrollador Frontend",
+    "company": "Hello México",
+    "ubication": "México, Ciudad de México",
+    "workModality": "Remoto",
+    "schedule": "Medio tiempo",
+    "activities": [
+      "Lideré y desarrollé el sitio oficial de la empresa con HTML, CSS, JavaScript, Bootstrap, logrando un sitio web responsivo y visualmente alineado con la marca.",
+      "Implementé una aplicación web dinámica con funcionalidades CRUD, usando React en el Front end y PHP en el Back-end para una gestión eficiente de datos.",
+      "Elaboré wireframes detallados para el blog de Conexión Fácil usando Balsamiq facilitando una clara visualización del diseño y estructura antes del desarrollo",
+      "Creé wireframes detallados para un blog en el software Balsamiq, facilitando la visualización del diseño antes del desarrollo.",
+      "Colaboré en un proyecto para desarrollar interfaces de usuario interactivas con React JS."
+    ],
+    "skills": [
+      "html",
+      "css",
+      "php",
+      "react",
+      "javascript",
+      "github",
+      "bootstrap"
+    ],
+    "date": "Enero 2022 - Marzo 2022"
+  }
+]

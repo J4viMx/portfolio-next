@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "link": "#hero",
+    "icon": "LuHome",
+    "id": "hero"
+  },
+  {
+    "name": "Experiencia",
+    "link": "#experience",
+    "icon": "LuBriefcase",
+    "id": "experience"
+  },
+  {
+    "name": "Proyectos",
+    "link": "#works",
+    "icon": "LuAppWindow",
+    "id": "works"
+  },
+  {
+    "name": "Carrera",
+    "link": "#career",
+    "icon": "LuFileTerminal",
+    "id": "career"
+  },
+  {
+    "name": "Acerca de mi",
+    "link": "#resume",
+    "icon": "LuUser2",
+    "id": "resume"
+  }
+]

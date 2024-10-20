@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Posgrado en Sistemas de Información",
+    "subtitle": "UNIVERSIDAD ICEL",
+    "date": "2019 - 2020",
+    "country": "México",
+    "activities": "Graduado de la Universidad ICEL, donde profundicé en el análisis, diseño y gestión de sistemas informáticos, desarrollando habilidades en el manejo de bases de datos, integración de tecnologías y optimización de procesos para apoyar la toma de decisiones dentro de las organizaciones."
+  },
+  {
+    "title": "Licenciatura en ingenieria en sistemas computacionales",
+    "subtitle": "UNIVERSIDAD ICEL",
+    "date": "2015 - 2018",
+    "country": "México",
+    "activities": "Graduado de la Universidad ICEL, donde obtuve conocimientos teóricos y prácticos en el campo de la programación, especializándome en diversos lenguajes de programación, desarrollo de algoritmos y gestión de bases de datos, además de otras áreas complementarias del desarrollo de software."
+  },
+  {
+    "title": "Bootcamp launch X",
+    "subtitle": "Microsoft",
+    "date": "Enero-2022 - Mayo-2022",
+    "country": "México",
+    "activities": "Participe en un Bootcamp, donde adquirí habilidades prácticas en la creación de aplicaciones y sitios web utilizando tecnologías modernas como HTML, CSS, JavaScript y frameworks como React y Node.js, enfocándome en el diseño responsivo, experiencia de usuario y buenas prácticas de desarrollo frontend y backend."
+  },
+  {
+    "title": "Cursos Udemy",
+    "subtitle": "Udemy",
+    "date": "2021 - Actualidad",
+    "country": "México",
+    "activities": "He completado varios cursos en Udemy, especializándome en distintas áreas como desarrollo web, bases de datos y frameworks de JavaScript, adquiriendo conocimientos prácticos y actualizados sobre las tecnologías más utilizadas en la industria del software."
+  }
+]
