@@ -82,10 +82,12 @@ const SkillsComponent: React.FC = () => {
         spin.pause();
       },
       onRelease(this: any) {
+        setTimeout(() => {
+          if (!this.tween || !this.tween.isActive()) {
+            gsap.to(spin, { timeScale: 1, duration: 1 });
+          }
+        }, 1000);
         spin.play();
-        if (!this.tween || !this.tween.isActive()) {
-          gsap.to(spin, { timeScale: 1, duration: 1 });
-        }
       },
       onThrowComplete() {
         gsap.to(spin, { timeScale: 1, duration: 1 });

@@ -14,7 +14,7 @@
     "title": "Camp Site",
     "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618894/samples/portfolio_images/e19gzueervyjwcbdwwfh.png",
     "description": "Camp Site es mi primer proyecto con la nueva versión de Next.js, creado para explorar y aprender esta tecnología. Desarrollé una página estática que muestra actividades y lugares de un campamento, utilizando TypeScript, Next.js y Tailwind CSS. Uno de los mayores desafíos fue adaptarme a la nueva versión de Next.js, lo cual me ayudó a mejorar mis habilidades y comprender mejor las herramientas para desarrollar sitios más optimizados. El enfoque en los detalles de diseño buscó crear una experiencia envolvente, resaltando la belleza y diversión del entorno campestre.",
-    "url": "https://nike.javimx.com",
+    "url": "https://camp.javimx.com",
     "git": "https://github.com/J4viMx/next_project",
     "date": "2024",
     "service": "Frontend Development",

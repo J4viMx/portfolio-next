@@ -27,16 +27,18 @@ export default function PortfolioSection() {
             key={index}
           >
             <div className="w-full md:w-1/2">
-              <ContainerScroll>
-                <Image
-                  className="w-full rounded-2xl"
-                  src={work.image}
-                  alt={work.title}
-                  width={960}
-                  height={720}
-                  loading={"lazy"}
-                />
-              </ContainerScroll>
+              <Link href={work.url} target="_blank">
+                <ContainerScroll>
+                  <Image
+                    className="w-full rounded-2xl"
+                    src={work.image}
+                    alt={work.title}
+                    width={960}
+                    height={720}
+                    loading={"lazy"}
+                  />
+                </ContainerScroll>
+              </Link>
             </div>
             <div className="size-full text-white md:w-1/2">
               <div className="flex h-full min-h-[470px] flex-col justify-around py-5">
