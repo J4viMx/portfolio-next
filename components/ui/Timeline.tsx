@@ -55,7 +55,7 @@ export const Timeline = () => {
                   {item.name}
                   <span className="text-light"> - {item.company}</span>
                 </p>
-                <div className="mb-4 flex justify-end gap-3">
+                <div className="mb-4 flex flex-wrap justify-center gap-3 md:justify-end">
                   <div className="rounded-xl bg-light-secondary p-2 font-semibold text-dark">
                     {item.ubication}
                   </div>
