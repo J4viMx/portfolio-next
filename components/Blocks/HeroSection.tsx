@@ -11,21 +11,21 @@ export default function HeroSection() {
       <div className="container mx-auto flex h-screen max-w-screen-lg">
         <div className="flex w-full flex-col justify-center">
           <div className=" bg-clip-text text-white">
-            <h1 className="font-lato block text-6xl font-bold text-light-secondary">
+            <h1 className="font-lato block text-center text-5xl font-bold text-light-secondary md:text-left md:text-6xl">
               {Hero.name}
             </h1>
-            <h2 className="font-lato mt-5 text-left text-4xl font-medium text-white">
+            <h2 className="font-lato mt-5 text-center text-3xl font-medium text-white md:text-left md:text-4xl">
               {Hero.job}
             </h2>
           </div>
-          <p className="mt-10 text-2xl">
+          <p className="mt-10 p-2 text-center text-xl md:p-0 md:text-left md:text-2xl">
             {highlightKeywords(
               Hero.presentationText,
               keywords.hero,
               "text-light-secondary"
             )}
           </p>
-          <div className="mt-7 flex gap-4">
+          <div className="mt-7 flex justify-center gap-4 md:justify-start">
             <ContactComponent />
           </div>
         </div>

@@ -15,15 +15,18 @@ import keywords from "@/database/Keywords.json";
 
 export default function PortfolioSection() {
   return (
-    <section id="works" className="mx-auto min-h-screen max-w-screen-2xl">
+    <section
+      id="works"
+      className="mx-auto min-h-screen max-w-screen-2xl px-2 md:px-0"
+    >
       <TitleSection text="Mis trabajos" />
       {Works.map((work, index) => {
         return (
           <div
-            className="my-5 flex h-[470px] rounded-xl border border-slate-600 bg-dark-secondary/50 pr-3"
+            className="my-5 flex min-h-[470px] flex-col rounded-xl border border-slate-600 bg-dark-secondary/50 pr-3 md:flex-row"
             key={index}
           >
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <ContainerScroll>
                 <Image
                   className="w-full rounded-2xl"
@@ -35,28 +38,28 @@ export default function PortfolioSection() {
                 />
               </ContainerScroll>
             </div>
-            <div className="h-full w-1/2">
+            <div className="size-full md:w-1/2">
               <div className="flex h-full flex-col justify-around py-5">
                 <div>
-                  <div className="flex items-center gap-4 ">
-                    <h3 className=" font-lato inline-block text-center text-4xl font-bold text-light">
+                  <div className="flex flex-col items-center gap-4 md:flex-row">
+                    <h3 className=" font-lato inline-block text-center text-2xl font-bold text-light md:text-4xl">
                       {work.title}
                     </h3>
-                    <div className="flex gap-3 border-l-2 border-l-white pl-2">
+                    <div className="flex gap-3 border-l-0 border-l-white pl-0 md:border-l-2 md:pl-2">
                       <Link href={work.git} target="_blank">
-                        <IconComponent iconName={"github"} size={30} />
+                        <IconComponent iconName={"github"} size={24} />
                       </Link>
                       <Link href={work.url} target="_blank">
-                        <IconComponent iconName={"link"} size={30} />
+                        <IconComponent iconName={"link"} size={24} />
                       </Link>
                     </div>
                   </div>
-                  <span className=" py-2 text-xl font-semibold text-slate-300">
+                  <p className="py-2 text-center text-lg font-semibold text-slate-300 md:text-left md:text-xl">
                     Fecha de creación: {work.date}
-                  </span>
+                  </p>
                 </div>
                 <div>
-                  <p className="mt-3">
+                  <p className="mt-3 px-2 text-center text-sm md:px-0 md:text-left md:text-base">
                     {highlightKeywords(
                       work.description,
                       keywords.portfolio,
@@ -64,11 +67,11 @@ export default function PortfolioSection() {
                     )}
                   </p>
                 </div>
-                <div className="mt-5 flex justify-center gap-2">
+                <div className="mt-5 flex flex-wrap justify-center gap-2">
                   {work.stack.map((skill: string) => {
                     return (
                       <div
-                        className="flex items-center gap-2 rounded-xl bg-light p-2 text-dark-secondary"
+                        className="flex items-center gap-2 rounded-xl bg-light p-2 text-xs text-dark-secondary md:text-sm"
                         key={skill}
                       >
                         <span>

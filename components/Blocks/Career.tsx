@@ -14,7 +14,7 @@ const Career = () => {
   return (
     <section id="career">
       <TitleSection text="Mi trayectoria" />
-      <BentoGrid className="mx-auto h-auto ">
+      <BentoGrid className="mx-auto h-auto px-2">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
@@ -42,15 +42,15 @@ const DescriptionEducation = () => {
     <>
       {Education.map((item) => (
         <div key={item.activities} className="py-3">
-          <h3 className="font-lato text-2xl font-bold text-light-secondary">
+          <h3 className="font-lato text-center text-2xl font-bold text-light-secondary md:text-left">
             {item.title}
           </h3>
-          <div className="flex items-center justify-between md:w-1/3">
-            <h4 className="text-base font-semibold text-slate-300">
+          <div className="flex items-center justify-center md:w-1/3 md:justify-between">
+            <h4 className="mt-2 text-center text-base font-semibold text-slate-300 md:mt-0 md:text-left">
               {item.subtitle} | {item.date} | {item.country}
             </h4>
           </div>
-          <p className="py-3 text-base text-white">
+          <p className="py-3 text-center text-base text-white md:text-left">
             {highlightKeywords(
               item.activities,
               keywords.career,

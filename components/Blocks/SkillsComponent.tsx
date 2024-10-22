@@ -1,84 +1,26 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
-import {
-  SiExpress,
-  SiGithub,
-  SiJavascript,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiReact,
-  SiTypescript,
-  SiTailwindcss,
-  SiBootstrap,
-  SiMui,
-} from "react-icons/si";
-
-const cardsData = [
-  {
-    title: "React",
-    time: "+2 años",
-    logo: <SiReact size={40} />,
-  },
-  {
-    title: "Next.js",
-    time: "6 months",
-    logo: <SiNextdotjs size={40} />,
-  },
-  {
-    title: "Typescript",
-    time: "+2 años",
-    logo: <SiTypescript size={40} />,
-  },
-  {
-    title: "Javascript",
-    time: "+2 años",
-    logo: <SiJavascript size={40} />,
-  },
-  {
-    title: "Node.js",
-    time: "+1 año",
-    logo: <SiNodedotjs size={40} />,
-  },
-  {
-    title: "Express.js",
-    time: "+1 año",
-    logo: <SiExpress size={40} />,
-  },
-  {
-    title: "Tailwind",
-    time: "+1 año",
-    logo: <SiTailwindcss size={40} />,
-  },
-  {
-    title: "Bootstrap",
-    time: "+2 años",
-    logo: <SiBootstrap size={40} />,
-  },
-  {
-    title: "Material-ui",
-    time: "+2 años",
-    logo: <SiMui size={40} />,
-  },
-  {
-    title: "Git",
-    time: "+2 años",
-    logo: <SiGithub size={40} />,
-  },
-];
+import Skills from "@/database/Skills.json";
+import IconComponent from "@/utils/IconComponent";
 
 gsap.registerPlugin(Draggable);
 
 const SkillsComponent: React.FC = () => {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement[]>([]);
+  const [iconSize, setIconSize] = useState(20);
 
   useEffect(() => {
     const cards = cardsRef.current;
     const dragDistancePerRotation = 3000;
-    const radius = 520;
+    const radius = window.matchMedia("(min-width: 1024px)").matches
+      ? 520
+      : window.matchMedia("(min-width: 768px)").matches
+        ? 350
+        : 180;
     const proxy = document.createElement("div");
     const progressWrap = gsap.utils.wrap(0, 1);
     let startProgress: number;
@@ -151,18 +93,42 @@ const SkillsComponent: React.FC = () => {
     });
 
     updateCards();
+  }, [iconSize]);
+
+  useEffect(() => {
+    // Función para actualizar el tamaño del icono basado en los breakpoints
+    const updateIconSize = () => {
+      if (window.matchMedia("(min-width: 1024px)").matches) {
+        setIconSize(40); // Tamaño para pantallas grandes (PC)
+      } else if (window.matchMedia("(min-width: 768px)").matches) {
+        setIconSize(30); // Tamaño para tablet
+      } else {
+        setIconSize(20); // Tamaño para móvil
+      }
+    };
+
+    // Llamar la función inmediatamente para establecer el tamaño inicial
+    updateIconSize();
+
+    // Añadir un event listener para escuchar cambios en el tamaño de la ventana
+    window.addEventListener("resize", updateIconSize);
+
+    // Limpiar el listener cuando el componente se desmonta
+    return () => {
+      window.removeEventListener("resize", updateIconSize);
+    };
   }, []);
 
   return (
     <div
       ref={wrapperRef}
-      className="relative mx-auto h-[200px] w-4/5  antialiased"
+      className="relative mx-auto h-[200px] w-4/5 antialiased"
       style={{
         perspective: "5000px",
         transformStyle: "preserve-3d",
       }}
     >
-      {cardsData.map((card, index) => (
+      {Skills.map((card, index) => (
         <div
           key={index}
           ref={(el) => {
@@ -185,9 +151,11 @@ const SkillsComponent: React.FC = () => {
               <polygon points="50 2 94 26 94 74 50 98 6 74 6 26" />
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-light">
-              {card.logo}
-              <p className="mt-2 text-lg font-bold text-light">{card.title}</p>
-              <p className="text-sm font-semibold text-light-secondary">
+              <IconComponent iconName={card.logo} size={iconSize} />
+              <p className="mt-2 text-sm font-bold text-light md:text-lg">
+                {card.title}
+              </p>
+              <p className="text-xs font-semibold text-light-secondary md:text-sm">
                 {card.time}
               </p>
             </div>
