@@ -23,7 +23,7 @@ export default function PortfolioSection() {
       {Works.map((work, index) => {
         return (
           <div
-            className="my-5 flex min-h-[470px] flex-col rounded-xl border border-slate-600 bg-dark-secondary/50 pr-3 md:flex-row"
+            className="my-5 flex flex-col rounded-xl border border-slate-600 bg-dark-secondary/50 pr-3 md:flex-row"
             key={index}
           >
             <div className="w-full md:w-1/2">
@@ -38,8 +38,8 @@ export default function PortfolioSection() {
                 />
               </ContainerScroll>
             </div>
-            <div className="size-full md:w-1/2">
-              <div className="flex h-full flex-col justify-around py-5">
+            <div className="size-full text-white md:w-1/2">
+              <div className="flex h-full min-h-[470px] flex-col justify-around py-5">
                 <div>
                   <div className="flex flex-col items-center gap-4 md:flex-row">
                     <h3 className=" font-lato inline-block text-center text-2xl font-bold text-light md:text-4xl">

@@ -8,7 +8,7 @@ import keywords from "@/database/Keywords.json";
 export default function HeroSection() {
   return (
     <section className="relative h-screen" id="hero">
-      <div className="container mx-auto flex h-screen max-w-screen-lg">
+      <div className="container mx-auto flex h-screen max-w-screen-lg text-white">
         <div className="flex w-full flex-col justify-center">
           <div className=" bg-clip-text text-white">
             <h1 className="font-lato block text-center text-5xl font-bold text-light-secondary md:text-left md:text-6xl">
