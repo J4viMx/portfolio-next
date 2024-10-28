@@ -8,7 +8,7 @@
     "activities": [
       "Implementé un Sistema de Gestión de Información de Productos (PIM) con dashboard, APIs de gestión de datos y usuarios, e integración de IA. Utilicé Gemini, Cognito, Firebase, React, TypeScript, Node.js y Express, mejorando la centralización y gestión de productos.",
       "Desarrollé un programa de promociones y lealtad con un dashboard interactivo, utilizando React, Redux, TypeScript, Axios, Cognito y Material-UI. Esto impulsó la participación de los clientes y fortaleció la lealtad hacia la marca.",
-      "Creé plantillas de correo y resolví un problema de prorrateo en el checkout que impedía el uso correcto del checkout en una tienda, optimizando así el proceso con scripts personalizados utilizando React, Redux y jQuery. Esto mejoró la experiencia de usuario, aumentó la retención de clientes.",
+      "Creé plantillas de correo y resolví un problema de prorrateo en el checkout que impedía el uso correcto del checkout en una tienda, optimizando así el proceso con scripts personalizados utilizando HTML, CSS y jQuery. Esto mejoró la experiencia de usuario, aumentó la retención de clientes.",
       "Creé una página estática para la presentación de productos, incluyendo formularios de contacto y animaciones complejas, usando Next.js y TypeScript. Esto mejoró la presentación y visualización de los productos."
     ],
     "skills": [
