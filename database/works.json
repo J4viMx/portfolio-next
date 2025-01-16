@@ -1,5 +1,16 @@
 [
   {
+    "title": "Tesla Shop",
+    "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618895/samples/portfolio_images/wgfs5ps47ketwgupeor5",
+    "description": "Tesla Shop es un proyecto personal para aprender Next.js donde desarrolle una tienda online. Utilicé TypeScript, Next.js, prisma, postgresql, zustand, para crear una tienda online y hacer el desarrollo del Frontend y Backend del proyecto. El principal desafío fue hacer implementaciones de tecnologias que nunca habia usado con anterioridad, lo que me permitió mejorar mis habilidades.",
+    "url": "https://tienda-jj.vercel.app/",
+    "git": "https://github.com/J4viMx/teslo-app",
+    "date": "2024",
+    "service": "Frontend Development",
+    "stack": ["next", "typescript", "prisma", "postgresql, zustand"],
+    "basic_description": "Nike Page es una tienda online. Fue desarrollado el Frontend como el backend con tecnologias como TypeScript, Next.js."
+  },
+  {
     "title": "Nike Page",
     "image": "https://res.cloudinary.com/dw0pbvufu/image/upload/v1728618895/samples/portfolio_images/f6mtfxgwvgspoavr47jn.png",
     "description": "Nike Page es un proyecto personal para aprender Next.js mientras seguía un diseño inspirado en Nike. Utilicé TypeScript, Next.js y Tailwind CSS para crear una página estática que presenta productos de manera visualmente atractiva. El principal desafío fue adaptarme a la nueva versión de Next.js, lo que me permitió mejorar mis habilidades y optimizar el rendimiento del sitio.",
