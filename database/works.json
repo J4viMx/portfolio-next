@@ -7,8 +7,8 @@
     "git": "https://github.com/J4viMx/teslo-app",
     "date": "2024",
     "service": "Frontend Development",
-    "stack": ["next", "typescript", "prisma", "postgresql, zustand"],
-    "basic_description": "Nike Page es una tienda online. Fue desarrollado el Frontend como el backend con tecnologias como TypeScript, Next.js."
+    "stack": ["next", "typescript", "tailwind"],
+    "basic_description": "Tesla Shop es una tienda online. Fue desarrollado el Frontend como el backend con tecnologias como TypeScript, Next.js."
   },
   {
     "title": "Nike Page",
