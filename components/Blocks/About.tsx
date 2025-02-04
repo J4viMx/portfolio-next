@@ -58,7 +58,7 @@ export const About = () => {
           <div className="ml-4 grow border-t border-gray-500 md:hidden"></div>
           <div className="flex flex-col text-white">
             <h2 className="font-lato mb-4 text-center text-lg font-bold text-light md:text-xl">
-              Mi curriculum
+              Mi currículum
             </h2>
             <ResumeSection />
           </div>

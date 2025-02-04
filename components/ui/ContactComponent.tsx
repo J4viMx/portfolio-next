@@ -25,7 +25,7 @@ export const ContactComponent = () => {
       url: "mailto:javiersjuarezb@gmail.com",
     },
     {
-      name: "Curriculum",
+      name: "Currículum",
       logo: <LuScrollText size={40} />,
       url: CV.es,
     },
