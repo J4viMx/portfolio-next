@@ -35,15 +35,15 @@ export default function RootLayout({
           property="og:description"
           content="Portafolio de Javier Juárez (JaviMx). Se describen su carrera profesional y sus proyectos personales"
         />
-        <meta property="og:image" content="https://javimx.com/portfolio.JPG" />
+        <meta property="og:image" content="https://javimx.info/portfolio.JPG" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://javimx.com/" />
+        <meta property="og:url" content="https://javimx.info/" />
         <meta name="twitter:title" content="JaviMx" />
         <meta
           name="twitter:description"
           content="Portafolio de Javier Juárez (JaviMx). Se describen su carrera profesional y sus proyectos personales"
         />
-        <meta name="twitter:image" content="https://javimx.com/portfolio.JPG" />
+        <meta name="twitter:image" content="https://javimx.info/portfolio.JPG" />
       </head>
       <body className={`${roboto.className} font-sans`}>
         <main className="bg-black">{children}</main>
